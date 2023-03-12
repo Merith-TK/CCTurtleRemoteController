@@ -2,7 +2,9 @@ import { defineStore } from 'pinia'
 import { TurtleState, Block } from '../types/types';
 import { useWorldViewStore } from './useWorldView';
 
-const url = "http://localhost/"
+// TODO: Make this controlled by
+// Environment Variable
+const url = ""
 
 export const useWorldStore = defineStore('world', {
   state: () => ({
