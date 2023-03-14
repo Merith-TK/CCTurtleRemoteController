@@ -8,8 +8,7 @@ import DiscordWidget from "./components/DiscordWidget.vue";
 
 <template>
   <CCRemoteController />
-  // Disable Discord Widget for now
-  //<DiscordWidget />
+  <!-- <DiscordWidget /> -->
 </template>
 
 <style>
